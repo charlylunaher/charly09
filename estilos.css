@@ -1,0 +1,95 @@
+/* Fondo de toda la página */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  color: #222222;
+}
+
+/* Portada arriba */
+.portada {
+  background-color: #1a4731;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.portada h1 {
+  font-size: 40px;
+}
+
+.portada p {
+  font-size: 16px;
+  color: #90d4b0;
+}
+
+/* Bloque del título principal */
+.titulo {
+  background-color: #2d6a4f;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.titulo h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.titulo p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Cada sección de ubicación */
+.seccion {
+  background-color: white;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px;
+  border-left: 6px solid #2d6a4f;
+}
+
+.seccion h3 {
+  color: #1a4731;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+/* Lista de pasos */
+.seccion ol {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.seccion ol li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Botón de Google Maps */
+.boton {
+  display: inline-block;
+  background-color: #2d6a4f;
+  color: white;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.boton:hover {
+  background-color: #1a4731;
+}
+
+/* Pie de página */
+footer {
+  background-color: #1a4731;
+  color: #aaaaaa;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
